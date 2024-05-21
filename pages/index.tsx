@@ -1,6 +1,12 @@
+import Nav from "@/Components/Nav";
+
 const HomePage = () => {
   return (
-    <div className="text-9xl text-red-500 font-bold underline">Home Page</div>
+    <div className="owerflow-x-hidden">
+      <div>
+        <Nav />
+      </div>
+    </div>
   );
 }
 

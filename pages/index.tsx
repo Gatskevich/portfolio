@@ -1,3 +1,4 @@
+import Hero from "@/Components/Hero";
 import MobileNavigation from "@/Components/MobileNavigation";
 import Navigation from "@/Components/Navigation";
 import { useState } from "react";
@@ -18,6 +19,7 @@ const HomePage = () => {
       <div>
         <MobileNavigation isNavigationOpened={isNavigationOpened} closeNavigation={closeNavigation}/>
         <Navigation openNavigation={openNavigation}/>
+        <Hero />
       </div>
     </div>
   );

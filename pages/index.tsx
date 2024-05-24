@@ -1,3 +1,4 @@
+import About from "@/Components/About";
 import Hero from "@/Components/Hero";
 import MobileNavigation from "@/Components/MobileNavigation";
 import Navigation from "@/Components/Navigation";
@@ -20,6 +21,9 @@ const HomePage = () => {
         <MobileNavigation isNavigationOpened={isNavigationOpened} closeNavigation={closeNavigation}/>
         <Navigation openNavigation={openNavigation}/>
         <Hero />
+        <div className="relative z-[30]">
+          <About />
+        </div>
       </div>
     </div>
   );

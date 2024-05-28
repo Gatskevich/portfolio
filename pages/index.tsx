@@ -1,4 +1,5 @@
 import About from "@/Components/About";
+import Blog from "@/Components/Blog";
 import Hero from "@/Components/Hero";
 import MobileNavigation from "@/Components/MobileNavigation";
 import Navigation from "@/Components/Navigation";
@@ -31,6 +32,7 @@ const HomePage = () => {
           <Skills />
           <Projects />
           <Testimonial />
+          <Blog />
         </div>
       </div>
     </div>
